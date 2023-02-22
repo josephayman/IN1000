@@ -9,8 +9,8 @@ quiz = {
 score = 0
 
 for spørsmål, svar in quiz.items():
-    svar = input(spørsmål).casefold()
-    if svar == svar:
+    svaret = input(spørsmål).casefold()
+    if svaret == svar:
         score += 1
         print("Riktig!")
     else:
