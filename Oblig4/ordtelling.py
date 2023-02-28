@@ -27,6 +27,7 @@ def setningTilOrdbok(setning):
 print(setningTilOrdbok("hei hei på deg")) # {'hei': 2, 'på': 1, 'deg': 1}
 
 # Del 4
+# Funksjonen bruker funksjonene fra del 2 og 3
 def ordtelling():
     setning = input("Skriv inn en setning: ")
     antallOrdISetning = antallOrd(setning)
