@@ -21,7 +21,7 @@ assert substraksjon(54,-32) == 86
 
 # NOTAT! assert kan gi feil når det flyttall. 
 # eksempel assert 1/6 == 0.6666666666666667 gir feil, 
-# men 1/6 == 1/6 gir ikke feil
+# men 1/6 == 1/6 ikke gir feil
 
 assert divisjon(9, 3) == 3
 assert divisjon(-400, -20) == 20
