@@ -36,12 +36,13 @@ print(tommerTilCm(10)) # 25.4
 
 # del 4
 def skrivBergninger():
-    tall1 = float(input("Skriv tall 1: "))
-    tall2 = float(input("Skriv ett tall 2: "))
-    print(addisjon(tall1, tall2))
-    print(substraksjon(tall1, tall2))
-    print(divisjon(tall1, tall2))
-    tommelTall = float(input("Skriv tall som skal konverteres fra tommel til centimeter: "))
-    print(tommerTilCm(tommelTall))
+    tall1 = float(input("Skriv inn tall 1: "))
+    tall2 = float(input("Skriv inn tall 2: "))
+    print("Resultat av summering: ",addisjon(tall1, tall2))
+    print("Resultat av subtraksjon: ",substraksjon(tall1, tall2))
+    print("Resultat av divisjon: ",divisjon(tall1, tall2))
+    print("Konvertering fra tommer til cm:")
+    tommelTall = float(input("Skriv inn et tall: "))
+    print("Resultat: ", tommerTilCm(tommelTall))
 
 skrivBergninger()
