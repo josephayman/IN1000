@@ -45,4 +45,5 @@ def skrivBergninger():
     tommelTall = float(input("Skriv inn et tall: "))
     print("Resultat: ", tommerTilCm(tommelTall))
 
-skrivBergninger()
+# skrivBergninger()
+
