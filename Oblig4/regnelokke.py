@@ -19,7 +19,7 @@ print("Summen av tallene er lik: ", minSum)
 
 # Del 5
 # Løsning med to for loops (nested) O(n^2)
-minsteTall = 0
+minsteTall = liste[0]
 for i in liste:
     for j in liste:
         if i < j:

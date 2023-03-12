@@ -10,10 +10,11 @@ print(liste)
 # lag en funksjon som tar inn en et tall ofd fjerner er mindre enn det tallet fra liste
 
 def fjernTall(liste, tall):
+    newList = []
     for i in liste:
-        if i < tall:
-            liste.remove(i)
-    return liste
+        if i > tall:
+            newList.append(i)
+    return newList
 
 print(fjernTall(liste, 5))
 
