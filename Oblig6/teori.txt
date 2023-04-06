@@ -1,0 +1,12 @@
+1. Hva er innkapsling? Hvorfor er det nyttig?
+Innkapsling handler om å skjule implementasjonen av en klasse, og kun eksponere det som er nødvendig for å bruke klassen. Det er nyttig fordi det gjør det enklere å forstå og bruke klassen, og det gjør det enklere å oppdage og rette feil i programmet.
+
+2. Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av en klasse?
+
+Grensesnittet til en klasse er det som er synlig for brukeren av klassen. Det er det som er nødvendig for å bruke klassen. Implementasjonen er det som skjer bak kulissene, og som ikke er nødvendig for å bruke klassen.
+
+3. Hva er en instansmetode (ofte kalt bare metode), og hvordan skiller metoder seg fra prosedyrene/funksjonene vi har jobbet med hittil?
+
+En instansmetode er en metode som tilhører en klasse, og som kan kalles på en instans av klassen. En prosedyre eller funksjon er en metode som ikke tilhører en klasse, og som ikke kan kalles på en instans av en klasse.
+
+Metoder har ikke returnertypen void, og de har alltid en returnertypen. Prosedyrer og funksjoner kan ha returnertypen void, og de har ikke alltid en returnertypen.
