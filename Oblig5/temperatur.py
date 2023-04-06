@@ -41,6 +41,7 @@ def skrivMaksTemp(filnavn, ordbok):
     utfil.close()
 skrivMaksTemp('utfil.csv', maksTemp)
 
+
 # del 5 (bonus)
 def varmebolge(filnavn):
     innfil = open(filnavn)
@@ -69,4 +70,5 @@ def varmebolge(filnavn):
     innfil.close()
 
 varmebolge('max_daily_temperature_2018.csv')
+
 
