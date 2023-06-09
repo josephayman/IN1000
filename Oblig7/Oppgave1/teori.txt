@@ -1,0 +1,24 @@
+b) I klassen Spilleliste er det en instansvariabel som lagrer alle sangene i en liste. Nevn
+minst en, helst to årsaker til at det er naturlig å velge en liste fremfor en ordbok her.
+
+1. En liste er enklere å iterere over enn en ordbok, og det er enklere å finne ut hvor mange elementer en liste har enn en ordbok.
+
+2. En ordbok er vanligvis brukt til å lagre data som er relatert til en nøkkel, og i tilfellet med sanger i en spilleliste kan det være vanskelig å finne en nøkkel som passer for alle sanger. Hvis du for eksempel bruker artistnavn som nøkkel, kan du ha flere sanger av samme artist, og da vil du trenge en ekstra struktur for å lagre alle sangene for hver artist. Dette kan føre til økt kompleksitet og ytelsesproblemer.
+
+c) Klassen Spilleliste kunne hatt filnavn som parameter til konstruktøren, og lest inn spillelisten ved opprettelsen av et nytt Spilleliste-objekt. Ser du noen fordel ved ikke å
+gjøre det i konstruktøren?
+
+1. Hvis mann ikke leser inn spillelisten i konstruktøren, kan da legge til sanger i spillelisten når som helst ved å bruke leggTilSang()-metoden. Dette kan være nyttig hvis vi vil gi brukeren muligheten til å legge til sanger i spillelisten underveis.
+
+2. Det er enklere for da unngår vi unødvendig kompleksitet.
+
+3. Det er enklere å teste klassen Spilleliste hvis vi ikke leser inn spillelisten i konstruktøren.
+
+4. konstruktøren bør ikke gjøre mer enn det er nødvendig for å opprette et objekt.
+
+d) Hva må endres i Spilleliste-klassen om rekkefølgen på tittel og artist byttes om i
+datafilen?
+
+1. Da må vi endre på hvordan vi leser inn data fra filen. Vi må endre på hvordan vi splitter strengen og hvordan vi legger til sanger i spillelisten.
+
+2. Vi må også endre på hvordan vi skriver ut spillelisten.
